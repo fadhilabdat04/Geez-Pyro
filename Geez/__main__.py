@@ -10,13 +10,13 @@ from Geez.modules.basic.heroku import geez_log
 
 
 MSG_ON = """
-**Geez Pyro Userbot**
+**Arab Premium Userbot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
 **Geez Library Version - `{}`**
-**Ketik** `{}geez` **untuk Mengecheck Bot**
+**Ketik** `{}Arab` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
-©️2023 Geez|RAM Projects
+©️2023 Arab|Premium Userbot
 """
 
 async def main():
@@ -44,6 +44,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Geez").info("Starting Geez Pyro Userbot")
+    LOGGER("Geez").info("Starting Arab Premium Userbot")
     install()
     LOOP.run_until_complete(main())
