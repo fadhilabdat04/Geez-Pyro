@@ -5,16 +5,16 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 
 
-API_ID = int(getenv("API_ID", "5655010")) #optional
-API_HASH = getenv("API_HASH", "137d3d82e79c41f113ba640fc3cb2dfd") #optional
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = getenv("OWNER_ID")
+API_ID = int(getenv("API_ID", "12857763")) #optional
+API_HASH = getenv("API_HASH", "7b71e8bca0d5e1c6d8383ae818d9ec8d") #optional
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1345594412").split()))
+OWNER_ID = getenv("OWNER_ID", "1345594412")
 MONGO_URL = getenv("MONGO_URL")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6017295477:AAFfpqXGSScYnyodU8ydLHlEgm-0Tpvbz38")
 ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
+ALIVE_TEXT = getenv("ALIVE_TEXT", "✅ Arab-Premium Activated")
 PM_LOGGER = getenv("PM_LOGGER")
-OPENAI_API = getenv("OPENAI_API")
+OPENAI_API = getenv("OPENAI_API", "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")
 RMBG_API = getenv("RMBG_API", "3RCCWg8tMBfDWdAs44YMfJmC")
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID", "-1001803314750") or 0)
 PM_LIMIT = int(getenv("PM_LIMIT") or 5)
@@ -25,8 +25,8 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 BRANCH = getenv("BRANCH", "main") #don't change
 CMD_HNDLR = getenv("CMD_HNDLR", ".")
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
-STRING_SESSION2 = getenv("STRING_SESSION2", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQB0wxFJ5-ZnMPnA16sPYQsE0mUxAZF4aDHkgnLhFHJbGZQc1YIOo4U3Oihmh__V_BQFBWLuRpT5ulCgqLWqGHRO5bqKZANwaEWj_0Up6VuGyT_-1Yvii62KVWEPmE2y2NgCmCXnfyCiz6SatfptCXABiCJj4f3HRQ3Rj_x4x_IPYrNw6mj4jSORS01HmolIz1T2IZzCyBs8vxV-5B94jDDFuXuHHky09b0DzDsSqa8fsdJXMCQcD49BS_jqiNJ-jbT11m3G4a5hFSjDzaA8aR7M2GQhtWp4yLtpw-syK4sIEe8oGSA9SKYZWXX0Zd7BP-6ah1qvePsjxH074WUp6rnGbllgbgA")
+STRING_SESSION2 = getenv("STRING_SESSION2", "1BVtsOIMBu7lhDHlgnJSXzPwZ1bzhcInX3Ru9b1UElby81fJBj7BjaBt-NYi2qluJV0gAQmB0DbcrIPCKz1Bvb4ak2BxT6rar4G3ajD8cDv7TSegaG8CjYXqzHrN-rLm2N4TjqWwHm5r2-mnTDXS4qc5HwfeWZHEd_pc725uCWZn4BN7DIvH5lLxIeY0qvhk2iRo-6l1HsGFy0q46M-RE1mW2VuuDKn6EpXxWhNwjTNAkS0F0QGbYOH3qpjzHPdMQX6fI2U7rj_wlIq3uDCM3sLjc5LiEfTHAIv-PsuUDuFVSia44t6-WX6gnFPB06gQrltgJL5uofJ-VgOIajVWXS-dJNnf9zTY=")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
 STRING_SESSION5 = getenv("STRING_SESSION5", "")
