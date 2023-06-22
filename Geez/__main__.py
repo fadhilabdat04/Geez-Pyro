@@ -21,7 +21,7 @@ MSG_ON = """
 
 async def main():
     await app.start()
-    LOGGER("Geez").info("Loading Everything.")
+    LOGGER("Arab").info("Loading Everything.")
     for all_module in ALL_MODULES:
         importlib.import_module("Geez.modules" + all_module)
     for bot in bots:
@@ -33,17 +33,17 @@ async def main():
             try:
                 await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER, gver, CMD_HNDLR))
             except BaseException as a:
-                LOGGER("Geez").warning(f"{a}")
-            LOGGER("Geez").info("Startup Completed")
-            LOGGER("Geez").info(f"Started as {ex.first_name} | {ex.id} ")
+                LOGGER("Arab").warning(f"{a}")
+            LOGGER("Arab").info("Startup Completed")
+            LOGGER("Arab").info(f"Started as {ex.first_name} | {ex.id} ")
             ids.append(ex.id)
         except Exception as e:
-            LOGGER("Geez").info(f"{e}")
+            LOGGER("Arab").info(f"{e}")
     await idle()
     await aiosession.close()
 
 
 if __name__ == "__main__":
-    LOGGER("Geez").info("Starting Arab Premium Userbot")
+    LOGGER("Arab").info("Starting Arab Premium Userbot")
     install()
     LOOP.run_until_complete(main())
