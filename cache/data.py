@@ -34,9 +34,9 @@ RAM = [
     "MUKA LU TUH UDAH HINA, JADI JANGAN DIBUAT NAMBAH HINA NANTI HIDUP LU JADI GAK GUNA TOLOLL",
     "BANYAK GAYA TAPI BUKAN ORANG KAYA,BAPAK LU MASIH PAKE BAJU PARTAI DAPET DARI SOGOKAN NYOBLOS AJA UDAH GEDE LAGANYA",
 ]
-GRP = "@GeezSupport|@ramsupportt"
+GRP = "@SiArab_Store|@ArabSupport"
 
-Owners = "@jasadeak"
+Owners = "@Arabnihnge"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
