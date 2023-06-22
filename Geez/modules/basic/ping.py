@@ -169,6 +169,6 @@ add_command_help(
     "alive",
     [
         [f"{cmds}alive", "Check bot alive or not."],
-        [f"{cmds}geez", "Check bot alive or not."],
+        [f"{cmds}Arab", "Check bot alive or not."],
     ],
 )
