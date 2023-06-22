@@ -46,9 +46,9 @@ blchat = []
 @geez("gcast", cmds)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        tex = await message.reply_text("`Memulai Gcast...`")
+        tex = await message.reply_text("`sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋᴜᴋᴀɴ ʙʀᴏᴀᴅᴄᴀsᴛ`")
     else:
-        return await message.edit_text("**Give A Message or Reply**")
+        return await message.edit_text("**sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋᴜᴋᴀɴ ʙʀᴏᴀᴅᴄᴀsᴛ**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -70,15 +70,15 @@ async def gcast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await tex.edit_text(
-        f"**Berhasil mengirim ke** `{done}` **Groups chat, Gagal mengirim ke** `{error}` **Groups**"
+        f"**✅ ʙᴇʀʜᴀsɪʟ ᴍᴇɴɢɪʀɪᴍ ɢᴄᴀsᴛ ᴋᴇ** `{done}` **ɢʀᴏᴜᴘs ᴄʜᴀᴛ\n❌ ɢᴀɢᴀʟ ᴍᴇɴɢɪʀɪᴍ ɢᴄᴀsᴛ ᴋᴇ** `{error}` **ɢʀᴏᴜᴘs ᴄʜᴀᴛ**"
     )
 
 @geez("gucast", cmds)
 async def gucast(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        text = await message.reply_text("`Started global broadcast...`")
+        text = await message.reply_text("`sᴇᴅᴀɴɢ ᴍᴇʟᴀᴋᴜᴋᴀɴ ʙʀᴏᴀᴅᴄᴀsᴛ`")
     else:
-        return await message.edit_text("**Give A Message or Reply**")
+        return await message.edit_text("**ᴋᴀsɪʜ ɢᴜᴀ ᴘᴇsᴀɴ ᴀᴛᴀᴜ ʀᴇᴘʟʏ ɴɢᴇ**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -100,7 +100,7 @@ async def gucast(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await text.edit_text(
-        f"**Successfully Sent Message To** `{done}` **chat, Failed to Send Message To** `{error}` **chat**"
+        f"**✅ ʙᴇʀʜᴀsɪʟ ᴍᴇɴɢɪʀɪᴍ ᴋᴇ** `{done}` **ᴄʜᴀᴛ\n❌ ɢᴀɢᴀʟ ᴍᴇɴɢɪʀɪᴍ  ᴋᴇ** `{error}` **ᴄʜᴀᴛ**"
     )
 
 @geez("blchat", cmds)
