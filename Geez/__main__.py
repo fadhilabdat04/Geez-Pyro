@@ -13,7 +13,7 @@ MSG_ON = """
 **Arab Premium Userbot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
-**Geez Library Version - `{}`**
+**Arab Library Version - `{}`**
 **Ketik** `{}Arab` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 Arab|Premium Userbot
