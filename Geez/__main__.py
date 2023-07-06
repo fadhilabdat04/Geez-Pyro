@@ -33,17 +33,17 @@ async def main():
             try:
                 await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER, gver, CMD_HNDLR))
             except BaseException as a:
-                LOGGER("Arab").warning(f"{a}")
-            LOGGER("Arab").info("Startup Completed")
-            LOGGER("Arab").info(f"Started as {ex.first_name} | {ex.id} ")
+                LOGGER("Geez").warning(f"{a}")
+            LOGGER("Geez").info("Startup Completed")
+            LOGGER("Geez").info(f"Started as {ex.first_name} | {ex.id} ")
             ids.append(ex.id)
         except Exception as e:
-            LOGGER("Arab").info(f"{e}")
+            LOGGER("Geez").info(f"{e}")
     await idle()
     await aiosession.close()
 
 
 if __name__ == "__main__":
-    LOGGER("Arab").info("Starting Arab Premium Userbot")
+    LOGGER("Geez").info("Starting Arab Premium Userbot")
     install()
     LOOP.run_until_complete(main())
