@@ -14,14 +14,14 @@ MSG_ON = """
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 **Userbot Version -** `{}`
 **Arab Library Version - `{}`**
-**Ketik** `{}Arab` **untuk Mengecheck Bot**
+**Ketik** `{}Geez` **untuk Mengecheck Bot**
 ╼┅━━━━━━━━━━╍━━━━━━━━━━┅╾
 ©️2023 Arab|Premium Userbot
 """
 
 async def main():
     await app.start()
-    LOGGER("Arab").info("Loading Everything.")
+    LOGGER("Geez").info("Loading Everything.")
     for all_module in ALL_MODULES:
         importlib.import_module("Geez.modules" + all_module)
     for bot in bots:
